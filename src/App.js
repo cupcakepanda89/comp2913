@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Profile from './Profile';
 import './App.css';
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <br />
+          {2+3}
         </p>
         <a
           className="App-link"
@@ -18,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <Profile />
       </header>
     </div>
   );
