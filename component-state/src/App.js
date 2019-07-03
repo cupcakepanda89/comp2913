@@ -30,6 +30,10 @@ class App extends Component {
       });
     }, 1000);
   }
+
+  componentDidCatch(){
+    console.log("componentDidCatch");
+  }
   render() {
     console.log("render");
     return (

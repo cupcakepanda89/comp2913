@@ -9,7 +9,7 @@ class TestComponent extends Component {
     // use this method will stop the component props to update
     /* shouldComponentUpdate(){
         return false;
-    }c
+    }
      */
   render() {
     console.log("render from Test Component");
